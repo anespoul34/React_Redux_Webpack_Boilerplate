@@ -2,9 +2,6 @@ import React, { Component } from "react";
 import ReactDOM from "react-dom";
 import Input from "../presentational/Input.jsx";
 
-console.log('here');
-console.log(Input);
-
 class FormContainer extends Component {
     constructor() {
         super();
