@@ -18,7 +18,6 @@ function rootReducer(state = initialState, action) {
         });
     }
     if (action.type === "DATA_LOADED") {
-        console.log('here');
         return Object.assign({}, state, {
             remoteArticles: state.remoteArticles.concat(action.payload)
         });
